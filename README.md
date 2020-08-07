@@ -4,10 +4,13 @@ It uses a multivariate example data set of morphological  _measurements_ of two 
 
 Here is a brief description:
 
-* 2 species of crabs (`B`, `0`)
-* 5 phenotypica variables (`FL`,`RW`,`CL`,`CW`,`BD`)
-* 200 unique index values per variable
-* 1000 datapoints (each with a unique `observation`)
+Factor|values
+------|---
+`color` |species, `Blue` or `Orange` for <span style="color:blue">Blue</span> or <span style="color:orange">Orange</span>.
+`sex`|`M` or `F`
+`variable`|one of five variables: `FL`, `RW`, `CL`, `CW` and `BD`
+`measurement`| the value of one of the five `variable`
+`observation`| index 1 to 200 observations for each variable
 
 There are both `wide` and `long` formats versions of the measurements.
 
